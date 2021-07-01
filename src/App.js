@@ -11,7 +11,7 @@ class App extends React.Component{
       <div className="app-main">
         <Router>
           <Switch>
-            <Route path="" >
+            <Route path="/home" >
               <Home />
             </Route>
           </Switch>
